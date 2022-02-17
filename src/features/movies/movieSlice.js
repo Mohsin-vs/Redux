@@ -55,7 +55,6 @@ export const movieSlice = createSlice({
             return { ...state, movieDetail: payload }
         }
     }
-
 })
 export const { addMovies } = movieSlice.actions
 export const getAllmovies = (state) => state.movies.movies
